@@ -15,6 +15,14 @@ import java.net.URL;
  * @ClassName RequestUtil
  */
 public class RequestUtil {
+    public static JsonObject getRequest(String requestUrl){
+        return getXpath(requestUrl);
+    }
+
+    public static JsonObject postRequest(String path,String post){
+        return postDownloadJson(path,post);
+    }
+
     public static JsonObject getXpath(String requestUrl){
         String res="";
         JsonObject object = null;
