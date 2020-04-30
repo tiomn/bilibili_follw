@@ -46,11 +46,12 @@ class getapi implements Runnable {
             System.out.println();
             System.out.println();
             System.out.println();
-            Thread.sleep(500);
+            Thread.sleep(1000);
         }
     }
 
     public void run() {
-        bibillili("https://api.bilibili.com/x/relation/stat?vmid=546195&jsonp=jsonp");
+        bibillili("https://api.bilibili.com/x/relation/stat?vmid=196356191&jsonp=jsonp");
+//        bibillili("https://api.bilibili.com/x/relation/stat?vmid=546195&jsonp=jsonp");
     }
 }

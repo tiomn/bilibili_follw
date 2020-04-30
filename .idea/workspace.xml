@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b9b79c-43f5-42a5-84f9-7fe8287e1efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiomn/util/RequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiomn/util/RequestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tiomn/mian/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tiomn/mian/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiomn/draw/LoginForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiomn/entity/BiliUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiomn/mian/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiomn/mian/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiomn/mian/getapi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiomn/mian/getapi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tiomn/util/RequestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tiomn/util/RequestUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587696540792</updated>
-      <workItem from="1587696641225" duration="6209000" />
+      <workItem from="1587696641225" duration="7096000" />
+      <workItem from="1588230090383" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="first commit bilibili_following project ;&#10;now you can run and see infomation at console;">
       <created>1587708767214</created>
@@ -104,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587708767214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change RequestUtil.java add RequestUtil.getRequest and RequestUtil.postRequest to method">
+      <created>1587709154311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587709154311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +127,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -123,7 +137,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit bilibili_following project ;&#10;now you can run and see infomation at console;" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit bilibili_following project ;&#10;now you can run and see infomation at console;" />
+    <MESSAGE value="change RequestUtil.java add RequestUtil.getRequest and RequestUtil.postRequest to method" />
+    <option name="LAST_COMMIT_MESSAGE" value="change RequestUtil.java add RequestUtil.getRequest and RequestUtil.postRequest to method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="198" key="#Auto_Import" timestamp="1587697219979">
@@ -134,10 +149,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="796" y="256" key="#com.intellij.ide.util.MemberChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1587708034673" />
-    <state x="591" y="133" key="CommitChangelistDialog2" timestamp="1587708765960">
+    <state x="591" y="133" key="CommitChangelistDialog2" timestamp="1587709153279">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="591" y="133" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1587708765960" />
+    <state x="591" y="133" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1587709153279" />
     <state x="771" y="281" key="FileChooserDialogImpl" timestamp="1587708639058">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -146,22 +161,22 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="812" y="453" width="382" height="174" key="Github.CreateGistDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1587699974579" />
-    <state width="1815" height="310" key="GridCell.Tab.0.bottom" timestamp="1587708772300">
+    <state width="907" height="310" key="GridCell.Tab.0.bottom" timestamp="1588230513533">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="310" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1587708772300" />
-    <state width="1815" height="310" key="GridCell.Tab.0.center" timestamp="1587708772300">
+    <state width="907" height="310" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1588230513533" />
+    <state width="907" height="310" key="GridCell.Tab.0.center" timestamp="1588230513532">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="310" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1587708772300" />
-    <state width="1815" height="310" key="GridCell.Tab.0.left" timestamp="1587708772299">
+    <state width="907" height="310" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1588230513532" />
+    <state width="907" height="310" key="GridCell.Tab.0.left" timestamp="1588230513532">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="310" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1587708772299" />
-    <state width="1815" height="310" key="GridCell.Tab.0.right" timestamp="1587708772300">
+    <state width="907" height="310" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1588230513532" />
+    <state width="907" height="310" key="GridCell.Tab.0.right" timestamp="1588230513533">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="310" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1587708772300" />
+    <state width="907" height="310" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1588230513533" />
     <state x="492" y="182" key="SettingsEditor" timestamp="1587697780085">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
