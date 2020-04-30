@@ -13,7 +13,7 @@ import lombok.SneakyThrows;
  * @ClassName Run
  */
 public class Run {
-    public static void main(String[] args) {
+    public static void gop() {
         getapi getapi =new getapi();
         getapi.run();
     }
@@ -46,7 +46,7 @@ class getapi implements Runnable {
             System.out.println();
             System.out.println();
             System.out.println();
-            Thread.sleep(500);
+            Thread.sleep(1000);
         }
     }
 
